@@ -18,11 +18,11 @@ class Program
 
         // using classes and object
         BookClass book1 = new BookClass();
-        Console.WriteLine("author 1: " + book1.author + " - title: " + book1.title + " - pages: " + book1.pages);
+        Console.WriteLine("author 1: " + book1.Author + " - title: " + book1.Title + " - pages: " + book1.Pages);
 
         // Custom (parameterized) constructor
-        BookClass book2 = new BookClass("student", 200, "king and queen");
-        Console.WriteLine("author 2: " + book2.author + " - title: " + book2.title + " - pages: " + book2.pages);
+        BookClass book2 = new BookClass("student", -1, "king and queen");
+        Console.WriteLine($"Title: {book2.Title}, Author: {book2.Author}, Pages: {book2.Pages}");
 
         // end line
         Console.WriteLine("\n\n\n -- Enter to Quit! -- \n");
