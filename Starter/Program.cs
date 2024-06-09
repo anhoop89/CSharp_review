@@ -26,6 +26,15 @@ class Program
 
         // learning about static method from different class
         UsefulTools.SayHi("static method here!");
+
+
+        // Learning inheritance 
+        Chef chef = new Chef();
+        chef.MakeSpecialDish();
+        
+        VietnameseChef vietnameseChef = new VietnameseChef();
+        vietnameseChef.MakeChicken();
+        vietnameseChef.MakeSpecialDish();
         // end line
         Console.WriteLine("\n\n\n -- Enter to Quit! -- \n");
         Console.ReadLine();
