@@ -20,6 +20,14 @@ namespace Starter
 
         }
 
+        // Custom (parameterized) constructor
+        public BookClass(string in_title, int in_pages, string in_author)
+        {
+            title = in_title;
+            author = in_author;
+            pages = in_pages;
+        }
+
         public void DisplayBookData()
         {
             if (title != null)

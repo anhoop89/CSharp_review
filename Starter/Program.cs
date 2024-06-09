@@ -16,10 +16,13 @@ class Program
         // DivisionNumber
         // DivisionNumber();
 
-        //using classes and object
+        // using classes and object
         BookClass book1 = new BookClass();
-        Console.WriteLine(book1.author + book1.title + book1.pages);
+        Console.WriteLine("author 1: " + book1.author + " - title: " + book1.title + " - pages: " + book1.pages);
 
+        // Custom (parameterized) constructor
+        BookClass book2 = new BookClass("student", 200, "king and queen");
+        Console.WriteLine("author 2: " + book2.author + " - title: " + book2.title + " - pages: " + book2.pages);
 
         // end line
         Console.WriteLine("\n\n\n -- Enter to Quit! -- \n");
