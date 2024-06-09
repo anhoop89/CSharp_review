@@ -21,9 +21,11 @@ class Program
         Console.WriteLine("author 1: " + book1.Author + " - title: " + book1.Title + " - pages: " + book1.Pages);
 
         // Custom (parameterized) constructor
-        BookClass book2 = new BookClass("student", -1, "king and queen");
+        BookClass book2 = new BookClass("student", 200, "king and queen");
         Console.WriteLine($"Title: {book2.Title}, Author: {book2.Author}, Pages: {book2.Pages}");
 
+        // learning about static method from different class
+        UsefulTools.SayHi("static method here!");
         // end line
         Console.WriteLine("\n\n\n -- Enter to Quit! -- \n");
         Console.ReadLine();
