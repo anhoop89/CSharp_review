@@ -31,6 +31,8 @@ class Program
         // Learning inheritance 
         Chef chef = new Chef();
         chef.MakeSpecialDish();
+        chef.Event();
+        chef.Location();
         
         VietnameseChef vietnameseChef = new VietnameseChef();
         vietnameseChef.MakeChicken();

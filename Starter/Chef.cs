@@ -15,14 +15,14 @@ namespace Starter
 
         public void Event()
         {
-            Console.WriteLine("Hosting an event from the abstract class of ");
+            Console.WriteLine("ABSTRACT: Hosting an event from the abstract class of the restaurant ");
         }
     }
     // super class 
     internal class Chef: Restaurant
     {
         public Chef() {
-            Console.WriteLine("Constructor for the main parent class - Chef class");
+            Console.WriteLine("\n\nConstructor for the main parent class - Chef class");
         }
         public void MakeChicken()
         {
@@ -36,7 +36,7 @@ namespace Starter
         // abstract function method
         public override void Location()
         {
-            Console.WriteLine("Location is overrided from the abstract class");
+            Console.WriteLine(" Chef class: Location is overrided from the abstract class");
         }
         // virtual method
         public virtual void MakeSpecialDish()
